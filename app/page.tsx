@@ -1,10 +1,7 @@
-const getData = async () => {
-  await new Promise((res) => setTimeout(() => res(), 2000))
-  return { data: [1, 2, 3, 4] }
-}
-
-export default async function Home() {
-  const data = await getData()
-  console.log(data)
-  return <div>Home</div>
+export default function Home() {
+  return (
+    <div>
+      <h1>Home</h1>
+    </div>
+  )
 }
