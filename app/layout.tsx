@@ -45,7 +45,7 @@ export default function RootLayout({
       >
         <header>
           <nav>
-            <ul className="flex items-center">
+            <ul className="flex items-center gap-4 my-4">
               {links.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href}>{link.label}</Link>
